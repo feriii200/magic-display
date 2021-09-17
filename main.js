@@ -89,7 +89,7 @@ client.on('ready', async () => {
 
 
 client.on("ready", function() {
-  const voiceChannel = client.channels.cache.get("886259184969076736");
+  const voiceChannel = client.channels.cache.get("876034441653411880");
     if (!voiceChannel) return console.error("The channel does not exist!");
     voiceChannel.join()
   .then(connection => {
@@ -99,7 +99,7 @@ client.on("ready", function() {
 })
 
 setInterval(async function() {
-  const voiceChannel = client.channels.cache.get("886259184969076736");
+  const voiceChannel = client.channels.cache.get("876034441653411880");
   if (!voiceChannel) return console.error("The channel does not exist!");
   voiceChannel.join()
   .then(connection => {
